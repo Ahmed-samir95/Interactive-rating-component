@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+:root{
+  --main-color: hsl(25, 97%, 53%);
+  --second-color: hsl(217, 12%, 63%);
+  --paragraph-color: hsl(0, 0%, 100%);
+  --Dark-blue: hsl(213, 19%, 18%);
+  --main-transition: .5s;
+}
