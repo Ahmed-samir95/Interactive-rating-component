@@ -12,3 +12,21 @@
   --Dark-blue: hsl(213, 19%, 18%);
   --main-transition: .5s;
 }
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  height: 250px;
+  text-align: center;
+  background-color: var(--Dark-blue);
+  padding: 70px;
+}
+
+
+
