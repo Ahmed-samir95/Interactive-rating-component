@@ -5,7 +5,9 @@ let numArr = Array.from(num)
 let btn = document.querySelector(".btn")
 
 let rat = document.querySelector(".rat")
-console.log(rat);
+
+let ratNum = document.querySelector("h5")
+console.log(ratNum);
 
 console.log(num);
 numArr.forEach((li) =>{
