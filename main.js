@@ -6,6 +6,8 @@ let numLen = num.length
 
 let btn = document.querySelector(".btn")
 
+let btnTow = document.querySelector(".btn-2")
+
 let rat = document.querySelector(".rat")
 
 let ratNum = document.querySelector("h5")
@@ -26,7 +28,9 @@ btn.addEventListener("click", () =>{
   rat.style.display = "block"
 })
 
-
+btnTow.addEventListener("click", () =>{
+  rat.style.display = "none"
+})
 
 
 
