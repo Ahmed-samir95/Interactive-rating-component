@@ -71,8 +71,10 @@ body{
    text-align: center; 
 }
 
-.container .btn button{
+.container .btn button, 
+.rat .btn-2 button{
   width: 200px;
+  font-size: 20px;
   padding: 20px;
   border-radius: 20px;
   outline: none;
@@ -83,7 +85,8 @@ body{
   cursor: pointer;
 }
 
-.container .btn button:hover{
+.container .btn button:hover, 
+.rat .btn-2 button:hover{
   background-color: var(--paragraph-color);
   color: var(--main-color);
 }
@@ -112,21 +115,4 @@ body{
   color: var(--second-color);
   line-height: 1.4;
   margin-bottom: 20px;
-}
-
-.rat .btn-2 button{
-  width: 200px;
-  padding: 20px;
-  border-radius: 20px;
-  outline: none;
-  background-color: var(--main-color);
-  color: var(--paragraph-color);
-  border: none;
-  transition: var(--main-transition);
-  cursor: pointer;
-}
-
-.rat .btn-2 button:hover{
-  background-color: var(--paragraph-color);
-  color: var(--main-color);
 }
